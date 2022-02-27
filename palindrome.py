@@ -8,7 +8,7 @@ def is_palindrome (string:str) -> bool:
     return string == string [::-1]
 
 def run ():
-    print (is_palindrome("ana"))
+    print (is_palindrome(10000 ))
      
 if __name__== "__main__":
     run ()
