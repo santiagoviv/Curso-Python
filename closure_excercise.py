@@ -1,4 +1,4 @@
-def make_division_by (n:int)-> int: 
+def make_division_by (n:int)-> float : 
     def divisor (x:int)-> float:
         assert n !=0, "operación erronea "
         return   x/n 
